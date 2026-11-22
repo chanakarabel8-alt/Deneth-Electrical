@@ -1,4 +1,4 @@
-<!doctype html><html lang="si"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="DENETH Electrical PVT. LTD. provides safe, reliable and professional electrical services for homes and businesses throughout Sri Lanka."><title>Deneth Electrical</title><style>
+<!doctype html><html lang="si"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:title" content="DENETH ELECTRICAL (PVT) LTD | Trusted Electrical Services"><meta property="og:description" content="Professional electrical services, wiring, lighting, electrical panels and outdoor lighting in Sri Lanka."><meta name="description" content="DENETH Electrical PVT. LTD. provides safe, reliable and professional electrical services for homes and businesses throughout Sri Lanka."><title>Deneth Electrical</title><style>
 :root{--navy:#07172f;--blue:#0878df;--yellow:#ffd22f}*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Sinhala",sans-serif;color:#13243c;background:#f4f7fc;line-height:1.7}header{background:#07172f;color:white;border-bottom:4px solid #ffd22f;padding:16px 5%;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}header b{color:#ffd22f} .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:white}.brand-mark{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:2px solid #ffd22f;border-radius:12px;color:#ffd22f;font-size:25px;font-weight:900;box-shadow:0 0 0 3px #ffd22f22}.brand-name{display:flex;flex-direction:column;line-height:1.15;font-size:1.2rem;letter-spacing:1.4px;font-weight:900}.brand-name small{font-size:.65rem;letter-spacing:2.4px;color:#c5d7ee;margin-top:5px}nav a{color:white;text-decoration:none;margin:0 9px}.hero{background:radial-gradient(circle at 80% 20%,#1763ad,#07172f 70%);color:white;padding:85px 7%}.hero h1{font-size:clamp(2.4rem,6vw,4.5rem);line-height:1.2}.hero h1 span{color:#ffd22f}.hero p{font-size:1.15rem;max-width:680px}.btn{display:inline-block;margin:8px 8px 0 0;padding:13px 20px;border-radius:9px;text-decoration:none;font-weight:bold;background:#ffd22f;color:#07172f}.btn.alt{background:transparent;border:1px solid white;color:white}section{padding:60px 7%}.title{text-align:center;margin-bottom:30px}.title h2{color:#092d57;font-size:2rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:white;border:1px solid #e0e8f2;border-radius:15px;padding:22px;box-shadow:0 8px 24px #0b2b4d0d}.card h3{color:#07549b}.band{background:#e8f2ff}.promise{text-align:center;background:#07172f;color:white;padding:42px 15px}.promise h2{color:#ffd22f}.contact{background:#07172f;color:white;text-align:center}.contact h2{color:white}.phone{display:block;color:#ffd22f;font-size:1.5rem;font-weight:bold;text-decoration:none}.footer{text-align:center;background:#041023;color:#b6c4d7;padding:20px}.gallery-card{padding:0;overflow:hidden}.gallery-card img{display:block;width:100%;height:250px;object-fit:cover}.gallery-card div{padding:14px 17px}.gallery-card h3{margin:0 0 4px}.gallery-card p{margin:0;color:#53657a;font-size:.95rem}
 
 /* Modern responsive refresh */
@@ -65,16 +65,64 @@ section{padding:clamp(42px,6vw,76px) 7%}
 .contact-email{color:#ffd22f;font-weight:700;text-decoration:none;font-size:1.08rem}
 @media(max-width:760px){.hero{background-image:linear-gradient(90deg,rgba(4,16,35,.94),rgba(4,16,35,.76)),url('gallery/home-electrical-hero.jpg');background-position:58% center}.social-links a{width:min(100%,270px)}}
 
-</style></head><body><header><a class="brand" href="#" aria-label="Deneth Electrical home"><img class="brand-logo" src="deneth-logo-transparent.png" alt="Deneth Electrical logo"><span class="brand-name">DENETH <b>ELECTRICAL</b><small>TRUSTED ELECTRICAL SERVICES</small></span></a><nav><a href="#home-work">Home Electrical Work</a><a href="#services">සේවාවන්</a><a href="#about">අප ගැන</a><a href="#gallery">Gallery</a><a href="#contact">අමතන්න</a></nav></header>
-<div class="hero"><div style="color:#ffd22f;font-weight:bold">Your Trusted Electrical Partner</div><h1>ඔබේ විදුලි අවශ්‍යතාවයට<br><span>විශ්වාසනීය සේවාවක්!</span></h1><p>DENETH Electrical PVT. LTD. – නිවාස සහ ව්‍යාපාරික ස්ථාන සඳහා ආරක්ෂිත, පිළිවෙළැති සහ වෘත්තීය විදුලි සේවා. ශ්‍රී ලංකාවේ ඕනෑම ප්‍රදේශයක සේවා ලබාගැනීමට විමසන්න.</p><a class="btn" href="tel:+94773905977">📞 දැන් අමතන්න</a><a class="btn alt" href="https://wa.me/94773905977">WhatsApp</a></div>
+
+/* Quick contact shortcut */
+.whatsapp-float{position:fixed;right:18px;bottom:18px;z-index:30;display:flex;align-items:center;gap:9px;background:#ffd22f;color:#07172f;text-decoration:none;font-weight:800;padding:12px 17px;border-radius:999px;box-shadow:0 10px 28px #00152d55;border:2px solid #ffffff}
+.whatsapp-float:hover{background:#f4bd12;transform:translateY(-2px)}
+@media(max-width:480px){.whatsapp-float{right:12px;bottom:12px;padding:11px 14px;font-size:.9rem}}
+
+/* Premium service and project cards */
+#services .card{
+ position:relative;overflow:hidden;padding:26px 24px 24px;
+ border:1px solid #dce8f5;border-top:4px solid var(--blue);
+ background:linear-gradient(145deg,#fff 0%,#f6faff 100%);
+}
+#services .card:after{
+ content:"";position:absolute;width:115px;height:115px;border-radius:50%;
+ right:-44px;bottom:-56px;background:radial-gradient(circle,#0878df18,transparent 70%);
+ pointer-events:none;
+}
+#services .card h3{font-size:1.08rem;margin:0 0 10px;color:#07396b}
+#services .card p{margin:0;color:#53677f}
+#gallery .gallery-card,#home-work .gallery-card{
+ border:1px solid #dce6f2;overflow:hidden;background:#fff;
+ box-shadow:0 12px 32px #07172f12;
+}
+#gallery .gallery-card img,#home-work .gallery-card img{
+ width:100%;height:260px;object-fit:cover;display:block;
+ transition:transform .45s ease,filter .45s ease;
+}
+#gallery .gallery-card:hover img,#home-work .gallery-card:hover img{
+ transform:scale(1.045);filter:saturate(1.08);
+}
+.gallery-card div{padding:17px 18px 20px}
+.gallery-card h3{font-size:1.03rem;color:#07396b}
+.gallery-card p{line-height:1.55}
+#gallery{background:linear-gradient(180deg,#f5f9ff,#eaf3fc)}
+#gallery .title p{max-width:720px;margin:8px auto 0}
+#services .title p{max-width:680px;margin:8px auto 0}
+.social-links a{min-width:132px}
+@media(min-width:761px){
+ #services .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ #gallery .grid,#home-work .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+ #gallery .gallery-card img,#home-work .gallery-card img{height:230px}
+ #services .card{padding:22px 20px}
+}
+
+</style></head><body><header><a class="brand" href="#" aria-label="Deneth Electrical home"><img class="brand-logo" src="deneth-logo-transparent.png" alt="Official DENETH ELECTRICAL logo"><span class="brand-name">DENETH <b>ELECTRICAL</b><small>TRUSTED ELECTRICAL SERVICES</small></span></a><nav><a href="#home-work">Home Electrical Work</a><a href="#services">සේවාවන්</a><a href="#about">අප ගැන</a><a href="#gallery">Gallery</a><a href="#contact">අමතන්න</a></nav></header>
+<div class="hero"><div style="color:#ffd22f;font-weight:bold">Your Trusted Electrical Partner</div><h1>ඔබේ විදුලි අවශ්‍යතාවයට<br><span>විශ්වාසනීය සේවාවක්!</span></h1><p>DENETH Electrical PVT. LTD. – නිවාස සහ ව්‍යාපාරික ස්ථාන සඳහා ආරක්ෂිත, පිළිවෙළැති සහ වෘත්තීය විදුලි සේවා. ශ්‍රී ලංකාවේ ඕනෑම ප්‍රදේශයක සේවා ලබාගැනීමට විමසන්න.</p><a class="btn" href="tel:+94773905977">📞 දැන් අමතන්න</a><a class="btn alt" href="tel:+94773905977">📞 Call Now</a></div>
 
 <section class="band" id="home-work"><div class="title"><h2>නිවාස විදුලි වැඩ | Home Electrical Work</h2><p>නිවාස විදුලි පද්ධති, Wiring, Lighting සහ Electrical Panel සේවා.</p></div><div class="grid">
-<div class="card gallery-card"><img src="gallery/electrical-panel.jpg" alt="Electrical distribution board inspection and service" loading="lazy"><div><h3>Electrical Panel Work</h3><p>Distribution board inspection and servicing</p></div></div>
-<div class="card gallery-card"><img src="gallery/wiring-installation.jpg" alt="Electrician working on home electrical wiring" loading="lazy"><div><h3>Home Wiring</h3><p>Safe and neat household wiring work</p></div></div>
-<div class="card gallery-card"><img src="gallery/led-lighting.jpg" alt="Modern indoor LED ceiling lighting" loading="lazy"><div><h3>LED Lighting</h3><p>Indoor lighting and LED installation</p></div></div>
-<div class="card gallery-card"><img src="gallery/outdoor-wall-lighting.jpg" alt="Outdoor wall lighting installation" loading="lazy"><div><h3>Outdoor Lighting</h3><p>Exterior wall and entrance lighting</p></div></div>
-<div class="card gallery-card"><img src="gallery/garden-lighting.jpg" alt="Garden pathway lighting at a home" loading="lazy"><div><h3>Garden Lighting</h3><p>Outdoor garden and pathway lights</p></div></div>
-<div class="card gallery-card"><img src="gallery/home-exterior-lighting.jpg" alt="Modern home exterior with lighting" loading="lazy"><div><h3>Home Lighting</h3><p>Residential exterior lighting solutions</p></div></div>
+<div class="card gallery-card"><img src="gallery/IMG_20230111_153450.jpg" alt="Electrical distribution board work" loading="lazy"><div><h3>Electrical Panel Work</h3><p>Electrical panel installation and inspection work</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250326_201633.jpg" alt="Electrical panel cable arrangement" loading="lazy"><div><h3>Panel Wiring</h3><p>Neat cable routing and electrical panel work</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250522_114711.jpg" alt="Electrical control panel" loading="lazy"><div><h3>Control Panel Work</h3><p>Control panel wiring and installation work</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250707_125248.jpg" alt="Electrical cable installation" loading="lazy"><div><h3>Electrical Installation</h3><p>Electrical cable installation and routing</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-electrical-equipment-wiring.jpg" alt="Electrical equipment terminal wiring and cable connections" loading="lazy"><div><h3>Electrical Equipment Wiring</h3><p>Electrical equipment terminal wiring and cable connections</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-control-panel.jpg" alt="Electrical control panel with protective devices and wiring" loading="lazy"><div><h3>Electrical Control Panel</h3><p>Control panel wiring and component layout</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-tree-lighting-night.jpg" alt="Decorative warm LED lighting installed on a tree at night" loading="lazy"><div><h3>Decorative Tree Lighting</h3><p>Warm LED decorative lighting installation</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-garden-decorative-lighting.jpg" alt="Garden tree decorated with warm LED lights at dusk" loading="lazy"><div><h3>Garden & Outdoor Lighting</h3><p>Outdoor decorative lighting installation</p></div></div>
 </div></section>
 
 <section id="services"><div class="title"><h2>අපගේ සේවාවන් | Our Services</h2><p>ඔබගේ විදුලි අවශ්‍යතා සඳහා ගුණාත්මක සේවාවක්.</p></div><div class="grid">
@@ -85,13 +133,15 @@ section{padding:clamp(42px,6vw,76px) 7%}
 <div class="card"><h3>🛠️ විදුලි පද්ධති නඩත්තුව</h3><p>විදුලි පද්ධති නිසි තත්ත්වයේ පවත්වා ගැනීමට නඩත්තු සේවා.</p></div>
 <div class="card"><h3>💡 Lighting & LED</h3><p>Lighting සහ LED සවිකිරීම්.</p></div></div></section>
 
-<section id="gallery"><div class="title"><h2>අපගේ වැඩ | Our Projects</h2><p>නිවාස විදුලි පද්ධති, Wiring, Lighting සහ Electrical Panel සේවා සඳහා ආදර්ශ ඡායාරූප.</p></div><div class="grid">
-<div class="card gallery-card"><img src="gallery/electrical-panel.jpg" alt="Electrical distribution panel" loading="lazy"><div><h3>Electrical Panel Service</h3><p>Distribution board inspection and servicing</p></div></div>
-<div class="card gallery-card"><img src="gallery/wiring-installation.jpg" alt="Home electrical wiring" loading="lazy"><div><h3>Wiring Installation</h3><p>Household wiring and electrical installation</p></div></div>
-<div class="card gallery-card"><img src="gallery/led-lighting.jpg" alt="Indoor LED lighting" loading="lazy"><div><h3>LED Lighting</h3><p>Modern indoor LED lighting solutions</p></div></div>
-<div class="card gallery-card"><img src="gallery/outdoor-wall-lighting.jpg" alt="Outdoor wall lighting" loading="lazy"><div><h3>Outdoor Wall Lighting</h3><p>Exterior wall and entrance lighting</p></div></div>
-<div class="card gallery-card"><img src="gallery/garden-lighting.jpg" alt="Garden pathway lighting" loading="lazy"><div><h3>Garden Lighting</h3><p>Outdoor garden and pathway lights</p></div></div>
-<div class="card gallery-card"><img src="gallery/home-exterior-lighting.jpg" alt="Modern home exterior lighting" loading="lazy"><div><h3>Exterior Home Lighting</h3><p>Residential exterior lighting solutions</p></div></div>
+<section id="gallery"><div class="title"><h2>අපගේ සැබෑ වැඩ | Our Projects</h2><p>DENETH ELECTRICAL විසින් සිදුකළ විදුලි පැනල්, කේබල් සවිකිරීම් සහ Garden Lighting වැඩවල ඡායාරූප.</p></div><div class="grid">
+<div class="card gallery-card"><img src="gallery/IMG_20230111_153450.jpg" alt="Electrical distribution board work by Deneth Electrical" loading="lazy"><div><h3>Electrical Panel Work</h3><p>Electrical distribution board work</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250326_201633.jpg" alt="Electrical panel cable arrangement by Deneth Electrical" loading="lazy"><div><h3>Panel Cable Arrangement</h3><p>Neat cable routing and panel work</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250522_114711.jpg" alt="Electrical control panel work by Deneth Electrical" loading="lazy"><div><h3>Control Panel Installation</h3><p>Control panel wiring and installation</p></div></div>
+<div class="card gallery-card"><img src="gallery/20250707_125248.jpg" alt="Electrical cable installation by Deneth Electrical" loading="lazy"><div><h3>Electrical Cable Installation</h3><p>Electrical cable routing and installation</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-electrical-equipment-wiring.jpg" alt="Electrical equipment terminal wiring and cable connections" loading="lazy"><div><h3>Electrical Equipment Wiring</h3><p>Electrical equipment terminal wiring and cable connections</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-control-panel.jpg" alt="Electrical control panel with protective devices and wiring" loading="lazy"><div><h3>Electrical Control Panel</h3><p>Control panel wiring and component layout</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-tree-lighting-night.jpg" alt="Warm LED decorative lighting installed on a tree at night" loading="lazy"><div><h3>Decorative Tree Lighting</h3><p>Warm LED decorative lighting installation</p></div></div>
+<div class="card gallery-card"><img src="gallery/deneth-garden-decorative-lighting.jpg" alt="Garden tree illuminated with warm LED lights at dusk" loading="lazy"><div><h3>Garden & Outdoor Lighting</h3><p>Outdoor decorative lighting installation</p></div></div>
 </div></section>
 <section class="band" id="about"><div class="title"><h2>Deneth Electrical ගැන | About Us</h2></div><div class="card" style="max-width:850px;margin:auto;text-align:center"><p>ඔබගේ නිවසේ හෝ ව්‍යාපාරික ස්ථානයේ විදුලි දෝෂයක් ඇති වූ විට, විශ්වාසයෙන් අප අමතන්න. ආරක්ෂාව, ගුණාත්මකභාවය සහ පාරිභෝගික තෘප්තිය අපගේ ප්‍රමුඛතාවයයි.</p><b>සේවා ප්‍රදේශය: කොළඹ සහ ගාල්ල අවට</b><br>Service Area: Around Colombo & Galle, Sri Lanka<br><strong>Company Registration No: PV00351465</strong></div></section>
 <div class="promise"><h2>ඔබේ ආරක්ෂාව අපේ වගකීමයි!</h2>Your Safety... Our Priority...</div>
@@ -109,11 +159,11 @@ section{padding:clamp(42px,6vw,76px) 7%}
   </div>
 </section>
 
-<section class="contact" id="contact"><h2>අදම අප අමතන්න | Contact Us</h2><a class="phone" href="tel:+94773905977">0773 905 977</a><a class="phone" href="tel:+94719316173">0719 31 61 73</a><p><a class="contact-email" href="mailto:denethelectrical@gmail.com">✉ denethelectrical@gmail.com</a></p><a class="btn" href="https://wa.me/message/WB3ZN2LEJDB4N1?src=qr" target="_blank" rel="noopener">WhatsApp පණිවිඩයක්</a><a class="btn alt" href="https://www.facebook.com/share/18bVHcwc9S/">Facebook Page</a>
+<section class="contact" id="contact"><h2>අදම අප අමතන්න | Contact Us</h2><a class="phone" href="tel:+94773905977">0773 905 977</a><a class="phone" href="tel:+94719316173">0719 31 61 73</a><p><a class="contact-email" href="mailto:denethelectrical@gmail.com">✉ denethelectrical@gmail.com</a></p><a class="btn" href="tel:+94773905977">📞 දැන් අමතන්න</a><a class="btn alt" href="https://www.facebook.com/share/18bVHcwc9S/">Facebook Page</a>
 <div class="social-links" aria-label="Social media links">
 <a href="https://www.facebook.com/share/18bVHcwc9S/" target="_blank" rel="noopener">Facebook Page</a>
 <a href="https://www.tiktok.com/@chanaka.rabel5?_r=1&_t=ZS-9BSmUTnhJwa" target="_blank" rel="noopener">TikTok</a>
-<a href="https://www.instagram.com/" target="_blank" rel="noopener" title="Instagram profile link not yet provided">Instagram (profile link needed)</a>
+<a href="https://www.instagram.com/deneth_electrical?gwpx=MWFkdDk1aHk5ZTN2aw==" target="_blank" rel="noopener" title="Instagram profile shared by Deneth Electrical">Instagram</a>
 </div>
 <p>කොළඹ සහ ගාල්ල අවට · Colombo & Galle Areas</p></section>
-<footer class="footer">© <span id="y"></span> Deneth Electrical · Company Registration No: PV00351465 · Your Safety, Our Priority</footer><script>document.getElementById('y').textContent=new Date().getFullYear()</script></body></html>
+<a class="whatsapp-float" href="tel:+94773905977" aria-label="Call Deneth Electrical">📞 Call Now</a><footer class="footer">© <span id="y"></span> Deneth Electrical · Company Registration No: PV00351465 · Your Safety, Our Priority</footer><script>document.getElementById('y').textContent=new Date().getFullYear()</script></body></html>
